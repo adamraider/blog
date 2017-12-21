@@ -14,7 +14,7 @@ In order from objectively useful to subjectively awesome.
 * Never check luggage, it'll save you time, mitigate the risk of losing your stuff, and force you to minimize to the essentials. 
 * Get a credit-card with 0% foreign transaction fees, avoid cash as much as possible.
 * Scan, encrypt and store your passport, and insurance on a cloud server.
-* Before you arrive at a new destination, memorize/store the numbers for emergency services.
+* Before you arrive at a new destination, memorize/save the numbers for emergency services.
 * If you can buy it at your destination(s) and aren't *absolutely* sure you’ll need it, don’t bring it. 
 * A smart phone is your most useful possession. Call a cab, find your way when lost, translate the menu from Czech to English, find a place to spend the night.
 * A VPN will allow you to circumvent geo-restrictions on websites. As well as keep your data safe while using public wifi.
@@ -24,7 +24,7 @@ In order from objectively useful to subjectively awesome.
 * Enable wifi calling on your phone to save data.
 * E-books are your new friends, if you must carry a paper book, give it to someone when you’re finished before you buy another. It’s a nice gesture and will keep your bag light. :)
 * Hotels are boring (and expensive). I stayed in: 4 AirBnBs, 1 apartment, 2 friend-of-a-friend's apartments, 1 hostel, and 1 hotel.
-* Don't bring a camera. Your phone is more than adequte, always available and doesn't add weight to your bag.
+* Don't bring a camera. Your phone is more than adequate, always available and doesn't add weight to your bag.
 * Hostels are really fun for short amounts of time.
 * Pre-download your favorite tunes from Spotify so you’re not wasting precious data.
 * Find joy not in things, but in experiences and the people you share them with.
