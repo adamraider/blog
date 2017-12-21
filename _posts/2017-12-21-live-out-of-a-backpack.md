@@ -2,7 +2,7 @@
 layout: post
 title: live out of a backpack
 date: 2017-12-21 17:03 -0500
-title: Tips On How To Live Out of a Backpack For 3 Months
+title: Tips on how to live out of a backpack for 3 months
 tags: minimalism travel lifestyle nomad
 ---
 
