@@ -27,8 +27,6 @@ li
 
 img
   max-width: 100%
-  border-radius: 8px
-  box-shadow: 0 5px 50px rgba(0,0,0,0.15)
 
 body
   background-color: #fff
@@ -48,31 +46,38 @@ a
   text-decoration: none
 
 .nav
-  margin: 2em auto
-  padding: 1em
+  margin: 2em auto 2.5em
   font-family: 'Avenir', 'HelveticaNeue', Helvetica, 'sans-serif'
+  font-size: 0.9em
 
   &__container
     max-width: $width
     margin: 0 auto
-    padding: 0 0 1em
+    padding: 0.75em 1em
     display: flex
-    border-bottom: 1px solid #eee
+    align-items: center
 
   &__logo
     font-weight: 600
     color: inherit
     text-decoration: none
-    // background: $primaryLight
-    // color: $primary
-    // padding: 0 9px
-    // border-radius: 4px
+    letter-spacing: -0.5px
+    display: flex
+    align-items: center
+    &__text
+      margin-left: 0.5em
+      line-height: 1.275
+      &__subtext
+        font-size: 0.75em
+        opacity: 0.5
 
   &__menu
     margin: 0 0 0 auto
     padding: 0
     display: flex
+    font-weight: 600
     list-style-type: none
+    letter-spacing: -0.5px
     &__item
       margin: 0 0 0 1.5em
       a
@@ -82,8 +87,6 @@ a
 
 .post
   margin-bottom: 2.5em
-  &:not(:last-of-type)
-    // border-bottom: 1px solid #eee
 
   &__excerpt
     color: rgba(0,0,0,0.65)
@@ -123,9 +126,11 @@ a
 
 .footer
   text-align: center
-  margin-top: 4em
+  margin-top: 6em
   margin-bottom: 4em
   font-size: 0.75em
-  opacity: 0.5
-  line-height: 1.7
+  opacity: 0.35
+  letter-spacing: -0.45px
+  display: flex
+  justify-content: space-between
   font-family: 'Avenir', 'HelveticaNeue', Helvetica, 'sans-serif'
