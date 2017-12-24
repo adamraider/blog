@@ -22,7 +22,7 @@ In order from objectively useful to subjectively awesome.
 * Keep your money and essential medications in two places at all times. Some on your person (front pocket), some in your bag (locked compartment).
 * Carry as little cash/valuables on you as possible. It'll give you peace of mind.
 * Enable wifi calling on your phone to save data.
-* E-books are your new friends, if you must carry a paper book, give it to someone when you’re finished before you buy another. It’s a nice gesture and will keep your bag light. :)
+* E-books are your new friends, if you must carry a paper book, give it to someone when you’re finished before you buy another. It’s a nice gesture and will keep your bag light.
 * Hotels are boring (and expensive). I stayed in: 4 AirBnBs, 1 apartment, 2 friend-of-a-friend's apartments, 1 hostel, and 1 hotel.
 * Don't bring a camera. Your phone is more than adequate, always available and doesn't add weight to your bag.
 * Hostels are really fun for short amounts of time.
@@ -37,6 +37,6 @@ In order from objectively useful to subjectively awesome.
 * [Nomad List](https://nomadlist.com)
 
 
-Enjoy the ride. :)
+Enjoy the ride.
 
 — Adam
