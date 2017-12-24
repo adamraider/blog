@@ -35,8 +35,3 @@ In order from objectively useful to subjectively awesome.
 * [/r/ultralight](https://reddit.com/r/ultralight)
 * [/r/digitalnomad](https://reddit.com/r/digitalnomad)
 * [Nomad List](https://nomadlist.com)
-
-
-Enjoy the ride.
-
-— Adam
