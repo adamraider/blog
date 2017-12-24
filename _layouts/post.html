@@ -7,7 +7,7 @@ layout: default
 <div class="post container">
   <div class="post__meta">
     {{ page.date | date: "%B %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
-    {% if page.tags != "" %}
+    {% if page.tags %}
       in
       {% for tag in page.tags %}
         {% unless forloop.last %}

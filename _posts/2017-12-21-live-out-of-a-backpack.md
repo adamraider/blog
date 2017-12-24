@@ -3,7 +3,7 @@ layout: post
 title: live out of a backpack
 date: 2017-12-21 17:03 -0500
 title: Tips on how to live out of a backpack for 3 months
-tags: minimalism travel lifestyle nomad
+tags: Minimalism Travel Lifestyle Nomad
 ---
 
 In late June of 2016, I bought a one-way ticket from New York City to London. I brought a carry-on backpack with me, no checked luggage, and lived in various accommodations in London, Manchester, Prague, and Oslo. I didn’t plan or book anything in advance. I flew home to New York City in early September. These are some tips on how to live out of a 40L backpack for three months.
