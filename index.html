@@ -5,13 +5,12 @@ layout: default
 <div class="container">
   <div class="posts">
     {% for post in site.posts %}
-      <div class="post">
-        <div class="post__meta">{{ post.date | date: "%B %-d, %Y" }}</div>
-
-        <h2 class="post__previewHeading">
-          <a class="post__link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <div class="postPreview">
+        <h2 class="postPreview__heading">
+          <a class="postPreview__link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
-        <!-- <div class="post__excerpt">{{ post.excerpt }}</div> -->
+
+        <div class="postPreview__meta">{{ post.date | date: "%b %-d, %Y" }}</div>
       </div>
     {% endfor %}
   </div>

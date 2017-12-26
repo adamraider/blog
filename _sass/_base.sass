@@ -1,4 +1,4 @@
-$width: 780px
+$width: 1000px
 
 $primary: hsl(190, 50%, 35%)
 $primaryLight: hsl(190, 35%, 85%)
@@ -21,8 +21,10 @@ html
 
 h1, h2, h3, h4, h5, h6
   font-family: $sans-serif-font-stack
+  font-weight: 600
   margin-bottom: 0.5em
   line-height: 1.25
+  color: #333
 
 h2
   margin-top: 1.25em
@@ -46,6 +48,7 @@ body
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
   line-height: 1.6
+  color: #101010
 
 .container
   max-width: $width
@@ -53,7 +56,7 @@ body
   padding: 0 1em
 
 a
-  color: blue
+  color: #5466ff
   text-decoration: none
 
 .nav
@@ -126,28 +129,47 @@ a
     a
       color: inherit
       text-decoration: none
+  &__meta
+    text-transform: uppercase
+    font-size: 0.5em
+    font-weight: 600
+    letter-spacing: 0.1em
+    color: rgba(0,0,0,0.5)
+    font-family: $sans-serif-font-stack
 
-  &__previewHeading
-    margin-top: 0.25em
-    margin-bottom: 0.5em
+.postPreview
+  display: flex
+  margin: 0 0 1.25em 0
+  flex-direction: column
+  +medium
+    align-items: flex-end
+    flex-direction: row
+  
+  &__heading
+    margin: 0 0 0.25em 0
+    font-size: 1em
+    font-weight: 500
+    +medium
+      margin: 0 0.57em 0 0
     a
       color: inherit
       text-decoration: none
-
+  
   &__meta
-    font-size: 0.75em
-    font-weight: 500
+    text-transform: uppercase
+    font-size: 0.5em
+    font-weight: 600
+    letter-spacing: 0.1em
     color: rgba(0,0,0,0.5)
     font-family: $sans-serif-font-stack
-    margin-bottom: 1em
 
 .footer
   text-align: center
   margin-top: 6em
   margin-bottom: 4em
-  font-size: 0.75em
-  opacity: 0.35
-  letter-spacing: -0.45px
+  font-size: 0.65em
+  color: rgba(0,0,0,0.5)
+  letter-spacing: -0.025em
   display: flex
   justify-content: space-between
   font-family: $sans-serif-font-stack
