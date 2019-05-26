@@ -9,7 +9,6 @@ tags: Minimalism Travel Lifestyle Nomad
 In late June of 2016, I bought a one-way ticket from New York City to London. I brought a carry-on backpack with me, no checked luggage, and lived in various accommodations in London, Manchester, Prague, and Oslo. I didn’t plan or book anything in advance. I flew home to New York City in early September. These are some tips on how to live out of a 40L backpack for three months.
 
 ## The tips
-In order from objectively useful to subjectively awesome.
 
 * Never check luggage, it'll save you time, mitigate the risk of losing your stuff, and force you to minimize to the essentials. 
 * Get a credit-card with 0% foreign transaction fees, avoid cash as much as possible.
