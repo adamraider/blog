@@ -5,13 +5,18 @@ layout: default
 <div class="container">
   <div class="posts">
     {% for post in site.posts %}
-      <div class="postPreview">
-        <h2 class="postPreview__heading">
-          <a class="postPreview__link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-
-        <div class="postPreview__meta">{{ post.date | date: "%b %-d, %Y" }}</div>
-      </div>
+     {% if post.external_url %}
+      <a class="postPreview postPreview__link" 
+        href="{{ post.external_url }}"
+        target="_blank">
+      {% else %}
+      <a class="postPreview postPreview__link" 
+        href="{{ post.url | prepend: site.baseurl }}">
+      {% endif %}
+      <div class="postPreview__heading">{{ post.title }}</div>
+      <div class="postPreview__dots"></div>
+      <div class="postPreview__meta">{{ post.date | date: "%b %-d, %Y" }}</div>
+    </a>
     {% endfor %}
   </div>
 </div>
