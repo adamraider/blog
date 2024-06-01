@@ -1,4 +1,4 @@
-# Raider's Blog
+# Adam Raider's Blog
 
 Setup
 ```bash
