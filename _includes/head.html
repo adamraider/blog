@@ -1,14 +1,46 @@
 <head>
-  <meta charset="utf-8">
-  <title>{{ site.title }}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.css">
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/favicons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/assets/favicons/favicon-16x16.png">
-  <link rel="manifest" href="{{ site.baseurl }}/assets/favicons/manifest.json">
-  <link rel="shortcut icon" href="{{ site.baseurl }}/assets/favicons/favicon.ico">
-  <meta name="msapplication-config" content="{{ site.baseurl }}/assets/favicons/browserconfig.xml">
-  <meta name="theme-color" content="#ffffff">
+  <meta charset="utf-8" />
+  <title>
+    {% if page.subtitle %}{{ page.title }} | {% endif %}{{ site.title }}
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Source+Serif+Pro"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="{{ site.baseurl }}/css/main.css"
+  />
+  <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="{{ site.baseurl }}/assets/favicons/apple-touch-icon.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="{{ site.baseurl }}/assets/favicons/favicon-32x32.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href="{{ site.baseurl }}/assets/favicons/favicon-16x16.png"
+  />
+  <link
+    rel="manifest"
+    href="{{ site.baseurl }}/assets/favicons/manifest.json"
+  />
+  <link
+    rel="shortcut icon"
+    href="{{ site.baseurl }}/assets/favicons/favicon.ico"
+  />
+  <meta
+    name="msapplication-config"
+    content="{{ site.baseurl }}/assets/favicons/browserconfig.xml"
+  />
+  <meta name="theme-color" content="#ffffff" />
 </head>
