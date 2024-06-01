@@ -10,7 +10,6 @@ url: "http://adamraider.github.io" # the base hostname & protocol for your site
 # Markdown settings
 markdown: kramdown
 permalink: /:title/
-
 # Sass settings
 sass:
   add_charset: true
