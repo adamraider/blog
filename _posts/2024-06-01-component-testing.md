@@ -5,7 +5,13 @@ layout: post
 tags: testing software&nbsp;design
 ---
 
-When making a change to a feature the directory structure typically looks something like the following.
+The design of when and how to split up our code is a useful thing to consider, but how should it influence how we test our software?
+
+Unit-tests are often a starting point for testing, however unit tests can have the unfortunate consequence of being highly coupled to those arbitrary structural decisions. The idea that every class or module needs its own personal test suite encourages brittle testing.
+
+Instead, what would it look like if we focused on testing user-facing APIs and behavior?
+
+When making a change to a feature the directory structure often looks something like the following.
 
 ```
 foo_feature/
@@ -19,7 +25,7 @@ foo_feature/
 ├── util_test.js
 ```
 
-Notice the tests. One test file per module. One or more test cases per method. There aren't always tests, but if so they're typically highly coupled to the structure of the code. With this pattern, I often find myself _fighting the existing tests rather than being emboldened by them_.
+Notice the tests. One test file per module. One or more test cases per method. With this pattern, I often find myself _fighting the existing tests rather than being emboldened by them_.
 
 The problem with this approach is it tightly couples the tests to the arbitrary structure of the code.
 
