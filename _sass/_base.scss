@@ -2,11 +2,14 @@ $width: 48rem;
 
 :root {
   --bg-color: rgb(255, 252, 247);
-  --color: rgb(21, 23, 26);
-  --accent-color: #76abae;
-  --danger-color: #ae7676;
-  --warning-color: #aea476;
   --bg-color-2: rgba(162, 172, 193, 0.12);
+
+  --color: rgb(21, 23, 26);
+
+  --accent-color: #76abae;
+
+  --danger-color: hsl(0, 44%, 88%);
+  --warning-color: hsl(40, 44%, 88%);
 }
 
 @media (prefers-color-scheme: dark) {
