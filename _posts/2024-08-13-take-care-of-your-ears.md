@@ -37,7 +37,11 @@ Noise is typically described in decibels (dB), with louder noises having a highe
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.25rem;
+    min-width: 18rem;
+    white-space: nowrap;
+    text-overflow: ellipses;
+    overflow: hidden;
 }
 .db-chart .warning {
     background-color: var(--warning-color);
@@ -76,7 +80,7 @@ Noise is typically described in decibels (dB), with louder noises having a highe
   <li data-decibel="120" class="loud">
     <span class="db">120dB</span>
     <span>
-        Emergency vehicle sirens
+        Sirens
     </span>
     <div class="details">
         <span>⛔ Not safe</span>
@@ -121,7 +125,7 @@ Noise is typically described in decibels (dB), with louder noises having a highe
   <li data-decibel="70">
     <span class="db">70dB</span>
     <span>
-        Vacuum cleaner
+        Vacuum
     </span>
     <div class="details">
         <span>🟢 Safe</span>
@@ -195,8 +199,8 @@ Noise is typically described in decibels (dB), with louder noises having a highe
 <script>
 Array.from(document.querySelectorAll('.db-chart li')).forEach((listItem, index) => {
   const db = parseInt(listItem.dataset.decibel, 10);
-  const addedWidth =  Math.pow(db / 140, 3) ;
-  const percent = (.3 + addedWidth * .7) * 100;
+  const addedWidth =  Math.pow(db / 140, 2) ;
+  const percent = (.4 + addedWidth * .6) * 100;
   listItem.style.width = `${percent}%`;
 });
 </script>
