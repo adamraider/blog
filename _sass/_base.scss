@@ -12,13 +12,11 @@ $width: 48rem;
   --warning-color: hsl(40, 44%, 88%);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg-color: hsl(253 5% 13% / 1);
-    --color: hsl(253 5% 97% / 1);
-    --danger-color: hsl(0, 44%, 22%);
-    --warning-color: hsl(40, 44%, 22%);
-  }
+:root.theme-dark {
+  --bg-color: hsl(253 5% 13% / 1);
+  --color: hsl(253 5% 97% / 1);
+  --danger-color: hsl(0, 44%, 22%);
+  --warning-color: hsl(40, 44%, 22%);
 }
 
 $breakpoint: 840px;
