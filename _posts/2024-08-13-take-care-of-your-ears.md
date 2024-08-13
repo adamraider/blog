@@ -6,11 +6,11 @@ tags: health
 ---
 
 {: .callout-note }
-Quick disclaimer: I am neither a doctor nor an expert in this field, but if this write-up helps one-person look after their hearing health just a little better, I'll consider this post worthwhile.
+Quick disclaimer: I am neither a doctor nor an expert in this field, but if this write-up helps one person look after their hearing health just a little better, I'll consider this post worthwhile.
 
 Hearing health is seemingly overlooked by the general population. Hearing loss is linked to a number of debilitating health issues such as cognitive decline, depression. While many causes of hearing loss are unavoidable, such as genetics, age, and accidents, there are reasonable precautions we can do to protect ourselves from avoidable sources of hearing loss. From my experience, this is not widely known or talked about.
 
-There are three things I think are important to recognize among ourselves:
+There are three things I think are important to recognize:
 
 1. Noise exposure is dependent on dosage. That is, the duration you are exposed to a loud noise matters.
 2. Many common places we visit expose us to unsafe noise levels.
@@ -18,7 +18,7 @@ There are three things I think are important to recognize among ourselves:
 
 ## Understanding noise exposure
 
-Noise is typically described in decibels (dB), with louder noises having a higher decibel number. Humans do not hear all frequencies equally though. To account for this, there are different weightings applied to the decibel measurement, the most common in North America being dBA, indicating the ["A" weighting](https://en.wikipedia.org/wiki/A-weighting).
+Noise is typically described in decibels (dB), with louder noises having a higher decibel number. Humans do not hear all frequencies equally though. To account for this, there are different weightings applied to the decibel measurement. The most common in North America being dBA, indicating the ["A" weighting](https://en.wikipedia.org/wiki/A-weighting).
 
 <style>
 .db-chart {
@@ -220,9 +220,9 @@ I've [configured my Apple Watch](https://support.apple.com/guide/watch/noise-apd
 
 I keep a pair of earplugs on my keychain. If I find myself unexpectedly in a loud bar I can put them in and continue to enjoy my time there without having to be so concerned about my hearing.
 
-Wearing ear plugs: there are mainly two kinds of ear-plugs, there are those designed to block out loud sounds as much as possible, such as on construction sites and shooting ranges. There are then those that are designed to _reduce_ levels but minimally altering the sound while doing-so. These are more expensive but are better for concerts, events, movie theaters, and bars.
+Wearing ear plugs: there are mainly two kinds of ear plugs, there are those designed to block out loud sounds as much as possible, such as on construction sites and shooting ranges. There are then those that are designed to reduce levels but minimally altering the sound while doing so. These are more expensive but are better for concerts, events, movie theaters, and bars.
 
-Wearing high-end noise cancelling headphones can reduce slightly elevated noisy environments to safe-levels. It's important that we don't just _replace_ the sounds by then playing music at unsafe levels, but this is a great tool for commuting even if imperfect.
+Wearing high-end noise cancelling headphones can reduce slightly elevated noisy environments to safe levels. It's important that we don't just _replace_ the sounds by then playing music at unsafe levels, but this is a great tool for commuting even if imperfect.
 
 ## Closing
 
