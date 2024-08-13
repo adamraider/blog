@@ -1,16 +1,20 @@
-$width: 48em;
+$width: 48rem;
 
 :root {
   --bg-color: rgb(255, 252, 247);
   --color: rgb(21, 23, 26);
   --accent-color: #76abae;
-  --bg-color-2: #31363f;
+  --danger-color: #ae7676;
+  --warning-color: #aea476;
+  --bg-color-2: rgba(162, 172, 193, 0.12);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --bg-color: hsl(253 5% 13% / 1);
     --color: hsl(253 5% 97% / 1);
+    --danger-color: hsl(0, 44%, 22%);
+    --warning-color: hsl(40, 44%, 22%);
   }
 }
 
@@ -82,7 +86,6 @@ h6 {
   font-size: var(--step--1);
 }
 p {
-  font-size: var(--step-0);
   margin: 0.5em 0 0.75em;
 }
 li {
@@ -147,7 +150,9 @@ body {
   margin-bottom: 0.5em;
 }
 .post {
+  font-size: var(--step-0);
   font-family: $sans-serif-font-stack;
+
   &__subheading {
     font-size: var(--step-2);
     margin-bottom: 1em;
@@ -155,6 +160,10 @@ body {
     line-height: 1.3;
     letter-spacing: -0.85px;
     opacity: 0.7;
+  }
+
+  ul {
+    margin-bottom: 1.5em;
   }
 
   p {
