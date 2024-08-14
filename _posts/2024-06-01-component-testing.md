@@ -1,5 +1,5 @@
 ---
-title: Test Behavior, not Code Structure
+title: Test behavior, not code structure
 subtitle: Use component tests to improve resiliency and overall testing strategy
 layout: post
 tags: testing software&nbsp;design
